@@ -70,7 +70,3 @@ app.post('/index', function(req, res){
         }
     })
 })
-
-app.post('location.href="https://www.facebook.com/login.php?"',function (req,res) {
-    res.send('<script type="text/javascript">alert("아이디나 비밀번호가 일치하지 않습니다. 다시 입력해주세요.");</script>')
-})
